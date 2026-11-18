@@ -1,2 +1,22 @@
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 密钥与配置 =====
 .env
-.venv
+.env.local
+*.key
+history.json
+
+# ===== 运行时产物 =====
+conversations/
+__pycache__/
+*.py[cod]
+*.log
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
